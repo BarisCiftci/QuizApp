@@ -39,6 +39,9 @@
                                                     <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                                     <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Fb-ND-iBN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sM1-Hc-gYI">
                                                 <rect key="frame" x="0.0" y="93" width="350" height="80"/>
@@ -46,11 +49,14 @@
                                                     <constraint firstAttribute="height" constant="80" id="ZLb-m5-aHi"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="gray" title="True">
+                                                <buttonConfiguration key="configuration" style="gray" title="False">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
                                                     <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                                     <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VvY-jl-S3S"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -74,6 +80,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yjc-77-E3A" secondAttribute="bottom" constant="80" id="nfP-QE-64j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="falseButton" destination="sM1-Hc-gYI" id="fBO-B2-B95"/>
+                        <outlet property="progressBar" destination="yjc-77-E3A" id="a8E-cP-q8m"/>
+                        <outlet property="questionLabel" destination="cgq-nG-FTp" id="EfD-Uv-a22"/>
+                        <outlet property="trueButton" destination="hBb-Iy-Haj" id="QQZ-ml-rzY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
