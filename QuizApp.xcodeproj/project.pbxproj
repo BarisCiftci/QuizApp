@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0608652899C03A008710C2 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0608642899C03A008710C2 /* Question.swift */; };
 		3D5AD1F228932860002F7150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AD1F128932860002F7150 /* AppDelegate.swift */; };
 		3D5AD1F428932860002F7150 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AD1F328932860002F7150 /* SceneDelegate.swift */; };
 		3D5AD1F628932860002F7150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AD1F528932860002F7150 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0608642899C03A008710C2 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3D5AD1EE28932860002F7150 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5AD1F128932860002F7150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D5AD1F328932860002F7150 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				3D5AD1F128932860002F7150 /* AppDelegate.swift */,
 				3D5AD1F328932860002F7150 /* SceneDelegate.swift */,
 				3D5AD1F528932860002F7150 /* ViewController.swift */,
+				3D0608642899C03A008710C2 /* Question.swift */,
 				3D5AD1F728932860002F7150 /* Main.storyboard */,
 				3D5AD1FA28932861002F7150 /* Assets.xcassets */,
 				3D5AD1FC28932861002F7150 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5AD1F628932860002F7150 /* ViewController.swift in Sources */,
+				3D0608652899C03A008710C2 /* Question.swift in Sources */,
 				3D5AD1F228932860002F7150 /* AppDelegate.swift in Sources */,
 				3D5AD1F428932860002F7150 /* SceneDelegate.swift in Sources */,
 			);
